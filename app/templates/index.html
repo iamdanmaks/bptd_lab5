@@ -1,0 +1,39 @@
+<!doctype html>
+<title>My Application</title>
+{% block head %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.1/dist/css/uikit.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.4.1/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.4.1/dist/js/uikit-icons.min.js"></script>
+{% endblock %}
+{% block body %}
+<div id="pay"></div>
+
+<div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+    {% for t in transactions %}
+    <div>
+        <div class="uk-card uk-card-default uk-text-break uk-card-body">
+            <p>
+                Signature: {{t['signature']}}<br \>
+                Data: {{t['data']}}<br \>
+                Valid: {{t['valid']}}<br \>
+            </p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+
+<script>
+
+axios
+.get('/payment_form')
+.then((response) => {
+    document.getElementById("pay").innerHTML = response.data;
+})
+
+var input = document.getElementsByName("btn_text");
+input.classList.add("uk-align-center");
+
+</script>
+{% endblock %}
