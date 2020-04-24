@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "VIP room for 2 people",
+        "desc": "Beautiful view; big bed for 2 people; sofa; working space; Ultra HD TV; bathroom included",
+        "img": "https://www.ggrasia.com/wp-content/uploads/2015/05/JW-Marriot-hotel-room-Galaxy-Macau-Phase-2-e1432637852679.jpg",
+        "price": 450,
+        "available_from": "2020-04-26"
+    },
+    {
+        "id": 2,
+        "name": "VIP room for 2 people",
+        "desc": "Beautiful view; big bed for 2 people; Ultra HD TV; bathroom included",
+        "img": "https://www.firetrainingcompany.co.uk/CPC/proxy/wp-content/uploads/sites/7/2019/11/hotels-fire-safety-training-1024x682.jpg",
+        "price": 350,
+        "available_from": "2020-04-30"
+    },
+    {
+        "id": 3,
+        "name": "Middle class room for 2 people",
+        "desc": "Big bed for 2 people; Ultra HD TV; bathroom included",
+        "img": "https://pix10.agoda.net/hotelImages/230/2306823/2306823_17071918430054565196.jpg?s=1024x768",
+        "price": 250,
+        "available_from": "2020-04-28"
+    },
+    {
+        "id": 4,
+        "name": "Simple room for 2 people",
+        "desc": "Big bed for 2 people; working space; sofa; bathroom included",
+        "img": "https://s3-us-west-2.amazonaws.com/photo.jeckels.com/Vancouver2008-03.jpg",
+        "price": 175,
+        "available_from": "2020-05-01"
+    },
+    {
+        "id": 5,
+        "name": "Simple room for 2 people",
+        "desc": "Big bed for 2 people; working space; sofa",
+        "img": "https://media-cdn.tripadvisor.com/media/photo-s/03/5a/4c/fa/smart-and-simple-hotel.jpg",
+        "price": 150,
+        "available_from": "2020-05-02"
+    },
+    {
+        "id": 6,
+        "name": "Simple room for 1 person",
+        "desc": "Ordinary bed for 1 person; sofa; working space",
+        "img": "https://media-cdn.tripadvisor.com/media/photo-s/11/ec/83/fa/simple-single-room.jpg",
+        "price": 75,
+        "available_from": "2020-04-26"
+    }
+]

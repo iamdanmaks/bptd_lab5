@@ -1,0 +1,9 @@
+{% block body %}
+    Moving in:<br>
+    <input class="uk-input uk-align-center" required id="start" type="date" min="{{ room['available_from'] }}" />
+    <br>Moving out:<br>
+    <input class="uk-input uk-align-center" required id="end" type="date" min="{{ room['available_from'] }}" />
+    <p>
+        <button class="uk-button uk-button-default uk-align-center" id="{{ room['id'] }}" onclick="init_payment(this.id)">submit</button>
+    </p>
+{% endblock %}

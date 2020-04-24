@@ -1,3 +1,4 @@
 Flask==1.1.1
+python_dateutil==2.8.1
 git+https://github.com/liqpay/sdk-python#egg=liqpay
 gunicorn==20.0.4

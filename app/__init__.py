@@ -1,3 +1,4 @@
+import json
 from flask import Flask
 from liqpay import LiqPay
 
@@ -14,7 +15,10 @@ lp = LiqPay(
     app.config.get('private_key')
 )
 
-payments = []
+payments = {}
+
+with open('./app/rooms.json', 'r') as f:
+    rooms = json.load(f)
 
 
 from app import routes
